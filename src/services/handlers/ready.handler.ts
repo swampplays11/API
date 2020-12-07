@@ -22,7 +22,7 @@ export default class ReadyHandler implements EventHandler {
 
         await bot.user.setPresence({
             activity: {
-                name: 'dbots.co',
+                name: 'discor-bot-list',
                 type: 'WATCHING',
                 url: process.env.DASHBOARD_URL
             }            
